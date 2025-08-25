@@ -138,7 +138,7 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1470.8000000000002,4129.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1473.2,2341.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd2:DataTable" Name="DT_CSV" />
       <Variable x:TypeArguments="x:String" Name="CurrentSO_Number" />
@@ -149,14 +149,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Download Machship Export FIle" sap:VirtualizedContainerService.HintSize="650.4,1844.8" sap2010:WorkflowViewState.IdRef="Sequence_44">
+    <Sequence DisplayName="Download Machship Export FIle" sap:VirtualizedContainerService.HintSize="650.4,56.8" sap2010:WorkflowViewState.IdRef="Sequence_44">
       <Sequence.Variables>
         <Variable x:TypeArguments="si:FileInfo" Name="DownloadedFile" />
         <Variable x:TypeArguments="x:String" Name="ProjectPath" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -168,7 +168,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:GetEnvironmentVariable>
-      <uix:NApplicationCard CloseMode="Always" DisplayName="MachShip Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,1367.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="8a3843b0-369a-4cd6-9952-97c57c9b6127">
+      <uix:NApplicationCard CloseMode="Always" DisplayName="MachShip Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,1327.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="8a3843b0-369a-4cd6-9952-97c57c9b6127">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -324,7 +324,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uga:ReadRangeConnections x:TypeArguments="sd:DataTable5" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Unleashed Orders Status" BrowserItemId="https://docs.google.com/spreadsheets/d/18auwoqKwvyKTDjzYMuuTUKlC6CXs7cCYbneHOCaOoBg/edit?usp=drivesdk" ConnectionId="698ced0d-708c-49ec-8977-daacec31014b" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="616.8,289.6" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="Orders" ReadAs="Values" Result="[unleashedInputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd:DataTable5" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Unleashed Orders Status" BrowserItemId="https://docs.google.com/spreadsheets/d/18auwoqKwvyKTDjzYMuuTUKlC6CXs7cCYbneHOCaOoBg/edit?usp=drivesdk" ConnectionId="2a059290-31bb-4e01-81a1-a6adf001dfbc" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="616.8,289.6" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_2" ItemSelectionMode="Browse" Range="Orders" ReadAs="Values" Result="[unleashedInputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>OrderNumber</x:String>
@@ -368,7 +368,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable6" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Philips into stores master file " BrowserItemId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionId="698ced0d-708c-49ec-8977-daacec31014b" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="616.8,289.6" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Direct to Stores List'" ReadAs="Values" Result="[inputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable6" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Philips into stores master file " BrowserItemId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionId="2a059290-31bb-4e01-81a1-a6adf001dfbc" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="616.8,289.6" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_1" ItemSelectionMode="Browse" Range="'Direct to Stores List'" ReadAs="Values" Result="[inputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>Direct to store</x:String>
@@ -823,7 +823,7 @@ DL010</x:String>
           </ui:ForEachRow.Body>
         </ui:ForEachRow>
       </Sequence>
-      <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Philips into stores master file " BrowserItemId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionId="698ced0d-708c-49ec-8977-daacec31014b" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="616.8,384.8" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_2" IncludeHeaders="True" ItemSelectionMode="Browse" Range="'Direct to Stores List'" RowPosition="0" Source="[inputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Overwrite">
+      <uga:WriteRangeConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Philips into stores master file " BrowserItemId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionId="2a059290-31bb-4e01-81a1-a6adf001dfbc" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="616.8,384.8" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_2" IncludeHeaders="True" ItemSelectionMode="Browse" Range="'Direct to Stores List'" RowPosition="0" Source="[inputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False" WriteMode="Overwrite">
         <uga:WriteRangeConnections.FileIdBackup>
           <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID2" StoredValue="Browse">
             <usau:BackupSlot.BackupValues>
