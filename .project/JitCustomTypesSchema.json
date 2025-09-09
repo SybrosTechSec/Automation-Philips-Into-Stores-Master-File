@@ -1,0 +1,3215 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "ForEachRowConnections`1_1",
+        "hash": "ForEachRowConnections`1_1|DataRow|pUYCM9GwNbOajF8BhJ5eykYd4A2UaM9jwsrYzecTucw",
+        "dataType": "System.Data.DataRow, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Direct to store",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Direct to store",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "ATeam's Next Schedule Visit",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "ATeam's Next Schedule Visit",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "State",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "State",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Name",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Name",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "No of Bays",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "No of Bays",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL10",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL10",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Unleashed  SO number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Unleashed  SO number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Tracking number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Tracking number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Delivery Status ",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Delivery Status ",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Status \n\n1/0",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Status \n\n1/0",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Stock \nFound",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Stock \nFound",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL010",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL010",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Notes",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Notes",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status ",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status  Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status ",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status  ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status \n\n1/0",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status \n\n1/0 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status \n\n1/0",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status \n\n1/0 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataRow1",
+        "hash": "ForEachRowConnections`1_1|DataRow|7yJvXyZfSPPFoKj9ot6InWEpAoYezjxrOpn5aqvLg|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataRow1"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 2,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|pUYCM9GwNbOajF8BhJ5eykYd4A2UaM9jwsrYzecTucw",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Direct to store",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Direct to store",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "ATeam's Next Schedule Visit",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "ATeam's Next Schedule Visit",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "State",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "State",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Name",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Name",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "No of Bays",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "No of Bays",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL10",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL10",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Unleashed  SO number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Unleashed  SO number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Tracking number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Tracking number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Delivery Status ",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Delivery Status ",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Status \n\n1/0",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Status \n\n1/0",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Stock \nFound",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Stock \nFound",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL010",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL010",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Notes",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Notes",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status ",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status  Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status ",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status  ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status \n\n1/0",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status \n\n1/0 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status \n\n1/0",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status \n\n1/0 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "ReadRangeConnections`1_1|DataTable|7yJvXyZfSPPFoKj9ot6InWEpAoYezjxrOpn5aqvLg|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 3,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "ReadRangeConnections`1_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 4,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|B5J3DV8ofZh3nH58QQkknGg0oI9I73amUOxIKzF4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Direct to store",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Direct to store",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "ATeam's Next Schedule Visit",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "ATeam's Next Schedule Visit",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "State",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "State",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Name",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Name",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "No of Bays",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "No of Bays",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL10",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL10",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Unleashed  SO number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Unleashed  SO number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Tracking number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Tracking number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Delivery Status",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Delivery Status",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Status\n\n1/0",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Status\n\n1/0",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Stock \nFound",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Stock \nFound",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL010",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL010",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Notes",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Notes",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status\n\n1/0",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status\n\n1/0 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status\n\n1/0",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status\n\n1/0 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable4",
+        "hash": "ReadRangeConnections`1_1|DataTable|shSgRVvRTMLpYsYCJ8V9shmes8CHv2ZxcvLhlN6wk|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable4"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 5,
+        "idRef": "ReadRangeConnections`1_2",
+        "hash": "ReadRangeConnections`1_2|DataTable|h45RNRBZj0rBOhJCyqVBdx6nCEmOhAX0kCMsJNh91k",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "OrderNumber",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "OrderNumber",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "OrderDate",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "OrderDate",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "RequiredDate",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "RequiredDate",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DateCompleted",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DateCompleted",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Status",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Status",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "CustomerRef",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "CustomerRef",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Comments",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Comments",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DeliveryRegion",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DeliveryRegion",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DeliverySuburb",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DeliverySuburb",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "LeadTime",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "LeadTime",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "ShippingCompany",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "ShippingCompany",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "TrackingNumber",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "TrackingNumber",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "__PowerAppsId__",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "__PowerAppsId__",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "OrderNumber",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "OrderNumber Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "OrderNumber",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "OrderNumber ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "OrderDate",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "OrderDate Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "OrderDate",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "OrderDate ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "RequiredDate",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "RequiredDate Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "RequiredDate",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "RequiredDate ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DateCompleted",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DateCompleted Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DateCompleted",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DateCompleted ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "CustomerRef",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "CustomerRef Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "CustomerRef",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "CustomerRef ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Comments",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Comments Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Comments",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Comments ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DeliveryRegion",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DeliveryRegion Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DeliveryRegion",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DeliveryRegion ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DeliverySuburb",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DeliverySuburb Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DeliverySuburb",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DeliverySuburb ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "LeadTime",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "LeadTime Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "LeadTime",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "LeadTime ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "ShippingCompany",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ShippingCompany Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "ShippingCompany",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ShippingCompany ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "TrackingNumber",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "TrackingNumber Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "TrackingNumber",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "TrackingNumber ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "__PowerAppsId__",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "__PowerAppsId__ Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "__PowerAppsId__",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "__PowerAppsId__ ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable5",
+        "hash": "ReadRangeConnections`1_2|DataTable|cNLpkkhTxFK0t8EoV6tW2iTXtDxXzgW43wwGQakBM|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable5"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 6,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|eFj3099awKlt5UM7DrOsyZ9Z7WAC3k0RMbKks8WwiM",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Direct to store",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Direct to store",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "ATeam's Next Schedule Visit",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "ATeam's Next Schedule Visit",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "State",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "State",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Name",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Name",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "No of Bays",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "No of Bays",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL10",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL10",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Unleashed  SO number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Unleashed  SO number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Tracking number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Tracking number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Delivery Status",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Delivery Status",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Status 1/0",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Status 1/0",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Stock \nFound",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Stock \nFound",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL010",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL010",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Notes",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Notes",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status 1/0",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status 1/0 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status 1/0",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status 1/0 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable6",
+        "hash": "ReadRangeConnections`1_1|DataTable|yZriBtaMMUTviUkRqXaSYBhkElyKzlPSbKlMRzuss|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable6"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 7,
+        "idRef": "ReadRangeConnections`1_4",
+        "hash": "ReadRangeConnections`1_4|DataTable|IGOnsTf6n54TxTaIQxsWN2uaBObaQHEo5gdW5vvkY",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Direct to store",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Direct to store",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "ATeam's Next Schedule Visit",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "ATeam's Next Schedule Visit",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "State",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "State",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Store Name",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Store Name",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "No of Bays",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "No of Bays",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "DL10",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "DL10",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Unleashed  SO number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Unleashed  SO number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Tracking number",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Tracking number",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Delivery Status",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Delivery Status",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Status 1/0",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Status 1/0",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Stock \nFound",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Stock \nFound",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL06",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL06",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL07",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL07",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL08",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL08",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL09",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL09",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Installed \nDL010",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Installed \nDL010",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Notes",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Notes",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Column W",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Column W",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Column X",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Column X",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "SheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_SheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Direct to store",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Direct to store ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "ATeam's Next Schedule Visit",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "ATeam's Next Schedule Visit ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "State",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "State ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Store Name",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Store Name ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "No of Bays",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "No of Bays ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "DL10",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "DL10 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Unleashed  SO number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Unleashed  SO number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Tracking number",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Tracking number ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Delivery Status",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Delivery Status ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status 1/0",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status 1/0 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Status 1/0",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Status 1/0 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Stock \nFound",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Stock \nFound ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL06",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL06 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL07",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL07 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL08",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL08 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL09",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL09 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Installed \nDL010",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Installed \nDL010 ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Notes",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Notes ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column W",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column W Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column W",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column W ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column X",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column X Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column X",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column X ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.GSuite.Properties.UiPath.GSuite",
+          "resourceManagerAssemblyName": "UiPath.GSuite"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable7",
+        "hash": "ReadRangeConnections`1_4|DataTable|8FBXeMT5JjchEl2UtoFd1rc3brklC5nL3raOHZch374|M8QgJnMcDYq2DQeuuBU0Jk546eYbnq2FCcwUoYRi4Ss|HT8aFX0uTakdBZzx1gQ7QazRUYM25L1273kAdp3Xng",
+        "assemblyName": "Studio.Generated.TypedDataTable7"
+      }
+    }
+  ]
+}
