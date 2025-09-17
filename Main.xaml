@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable5" xmlns:sd1="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable10" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugase="clr-namespace:UiPath.GSuite.Activities.Sheets.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable5" xmlns:sd1="clr-namespace:System.Data;assembly=Studio.Generated.TypedDataTable11" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugase="clr-namespace:UiPath.GSuite.Activities.Sheets.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugsm="clr-namespace:UiPath.GSuite.Sheets.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -146,9 +146,10 @@
       <AssemblyReference>Studio.Generated.TypedDataTable8</AssemblyReference>
       <AssemblyReference>Studio.Generated.TypedDataTable9</AssemblyReference>
       <AssemblyReference>Studio.Generated.TypedDataTable10</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable11</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1985,2428" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1985,2459" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd2:DataTable" Name="DT_CSV" />
       <Variable x:TypeArguments="x:String" Name="CurrentSO_Number" />
@@ -323,7 +324,7 @@
       </ui:ReadCsvFile>
       <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="416,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[DownloadedFile.FullName]" />
     </Sequence>
-    <Sequence DisplayName="Read and Prcoess Master File" sap:VirtualizedContainerService.HintSize="620,2348" sap2010:WorkflowViewState.IdRef="Sequence_10">
+    <Sequence DisplayName="Read and Prcoess Master File" sap:VirtualizedContainerService.HintSize="620,2379" sap2010:WorkflowViewState.IdRef="Sequence_10">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd2:DataTable" Name="unleashedInputDt" />
         <Variable x:TypeArguments="sd2:DataTable" Name="inputDt" />
@@ -403,7 +404,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uga:ReadRangeConnections>
-      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable10" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Philips into stores master file " BrowserItemId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionId="2a059290-31bb-4e01-81a1-a6adf001dfbc" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="586,290" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_6" ItemSelectionMode="Browse" Range="'Direct to Stores List'" ReadAs="Values" Result="[inputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
+      <uga:ReadRangeConnections x:TypeArguments="sd1:DataTable11" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" ManualEntrySpreadsheetId="{x:Null}" RangeInformation="{x:Null}" Spreadsheet="{x:Null}" TemplateBrowserItemFriendlyName="{x:Null}" TemplateBrowserItemId="{x:Null}" AuthScopesInvalid="False" BrowserItemFriendlyName="Philips into stores master file " BrowserItemId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionId="2a059290-31bb-4e01-81a1-a6adf001dfbc" DisplayName="Read Range" HasHeaders="True" sap:VirtualizedContainerService.HintSize="586,290" sap2010:WorkflowViewState.IdRef="ReadRangeConnections`1_7" ItemSelectionMode="Browse" Range="'Direct to Stores List'" ReadAs="Values" Result="[inputDt]" UseConnectionService="True" WorkingWithTemplateSpreadsheet="False">
         <uga:ReadRangeConnections.ColumnNames>
           <x:Array Type="x:String">
             <x:String>Direct to store</x:String>
@@ -420,8 +421,7 @@
             <x:String xml:space="preserve">Unleashed  SO number</x:String>
             <x:String>Tracking number</x:String>
             <x:String>Delivery to Bunnings Status</x:String>
-            <x:String xml:space="preserve">Delivery
- Date</x:String>
+            <x:String>Delivery Date</x:String>
             <x:String xml:space="preserve">Stock 
 Found</x:String>
             <x:String xml:space="preserve">Installed 
@@ -450,7 +450,7 @@ Date</x:String>
           </usau:BackupSlot>
         </uga:ReadRangeConnections.FileIdBackup>
         <uga:ReadRangeConnections.Item>
-          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" ConnectionKey="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" FriendlyName="Philips into stores master file " FullPathHint="Philips into stores master file " InputMode="Browse">
+          <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FullPath="{x:Null}" IdOrUrl="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" BrowserId="https://docs.google.com/spreadsheets/d/115pX3XhDnBEI9Sx1Uf4AMN9wLqvx5oavzul4DTcuGC8/edit?usp=drivesdk" ConnectionKey="2a059290-31bb-4e01-81a1-a6adf001dfbc" FriendlyName="Philips into stores master file " FullPathHint="Philips into stores master file " InputMode="Browse">
             <ugam:DriveItemArgument.ParentIdFullPathHint>
               <InArgument x:TypeArguments="x:String">
                 <Literal x:TypeArguments="x:String" Value="" />
@@ -462,13 +462,13 @@ Date</x:String>
           <ugsm:RangeMetadataSlim ColumnStart="1" RangeType="Range" />
         </uga:ReadRangeConnections.RangeMetadata>
       </uga:ReadRangeConnections>
-      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[inputDt]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="586,1186" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[inputDt]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="586,1217" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
         <ui:ForEachRow.Body>
           <ActivityAction x:TypeArguments="sd2:DataRow">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="sd2:DataRow" Name="CurrentRow" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="584,1004" sap2010:WorkflowViewState.IdRef="Sequence_23">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="584,1035" sap2010:WorkflowViewState.IdRef="Sequence_23">
               <Sequence.Variables>
                 <Variable x:TypeArguments="sd2:DataTable" Name="filteredTable" />
               </Sequence.Variables>
@@ -502,7 +502,7 @@ Date</x:String>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:FilterDataTable>
-              <If Condition="[filteredTable.Rows.Count&gt;0]" DisplayName="If Filtered Row &gt; 0" sap:VirtualizedContainerService.HintSize="550,749" sap2010:WorkflowViewState.IdRef="If_4">
+              <If Condition="[filteredTable.Rows.Count&gt;0]" DisplayName="If Filtered Row &gt; 0" sap:VirtualizedContainerService.HintSize="550,780" sap2010:WorkflowViewState.IdRef="If_4">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -510,13 +510,13 @@ Date</x:String>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="548,594" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="548,625" sap2010:WorkflowViewState.IdRef="Sequence_25">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <If Condition="[filteredTable.Rows(0)(&quot;Status&quot;).ToString.Trim.ToLower.Contains(&quot;comp&quot;)]" DisplayName="If Delivery Status is complete " sap:VirtualizedContainerService.HintSize="514,486" sap2010:WorkflowViewState.IdRef="If_5">
+                    <If Condition="[filteredTable.Rows(0)(&quot;Status&quot;).ToString.Trim.ToLower.Contains(&quot;comp&quot;)]" DisplayName="If Delivery Status is complete " sap:VirtualizedContainerService.HintSize="514,517" sap2010:WorkflowViewState.IdRef="If_5">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -524,7 +524,7 @@ Date</x:String>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,257" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,288" sap2010:WorkflowViewState.IdRef="Sequence_29">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -567,7 +567,7 @@ Date</x:String>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:CommentOut>
-                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,140" sap2010:WorkflowViewState.IdRef="MultipleAssign_6">
+                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478,171" sap2010:WorkflowViewState.IdRef="MultipleAssign_6">
                             <ui:MultipleAssign.AssignOperations>
                               <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                 <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
@@ -576,6 +576,14 @@ Date</x:String>
                                   </ui:AssignOperation.To>
                                   <ui:AssignOperation.Value>
                                     <InArgument x:TypeArguments="x:Object">["Delivered"]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_16">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:Object">[CurrentRow("Delivery Date")]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:Object">[filteredTable.Rows(0)("DateCompleted").ToString]</InArgument>
                                   </ui:AssignOperation.Value>
                                 </ui:AssignOperation>
                               </scg:List>
